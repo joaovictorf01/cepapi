@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.victor.cepapi.model.Adress;
+import com.victor.cepapi.model.AdressDto;
 import com.victor.cepapi.service.CepService;
 
 @RestController
@@ -18,7 +19,7 @@ public class CepController {
     private CepService cepService;
 
     @GetMapping("/{cep}")
-    public ResponseEntity<Adress> getCep(@PathVariable String cep) {
+    public ResponseEntity<AdressDto> getCep(@PathVariable String cep) {
         return ResponseEntity.ok(cepService.getCep(cep));
 
     }
