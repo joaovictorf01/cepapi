@@ -1,6 +1,6 @@
 # Resumo do projeto
 
-Projeto em andamento, uma api que pega algumas informações do cep.
+Projeto finalizado, uma api que pega algumas informações do cep.
 
 ## 🔨 Funcionalidades do projeto
 
@@ -13,3 +13,4 @@ java 17.
 Spring boot 3.
 Feign client.
 orientação a objetos.
+Testes unitários
