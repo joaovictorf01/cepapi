@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.victor.cepapi.model.Adress;
 import com.victor.cepapi.model.AdressDto;
 import com.victor.cepapi.service.CepService;
 
